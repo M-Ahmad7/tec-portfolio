@@ -184,7 +184,7 @@ const Home = () => {
                         <div
                           className="flex h-97.5 w-72.5 items-center justify-center rounded-4xl border border-dashed border-orange-500/30 bg-black/20 bg-cover bg-center"
                           style={{
-                            backgroundImage: "url('/assets/me.png')",
+                            backgroundImage: `url(${import.meta.env.BASE_URL}assets/me.png)`,
                           }}
                         ></div>
                       </div>

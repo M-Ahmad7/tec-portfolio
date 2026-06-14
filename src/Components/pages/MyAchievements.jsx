@@ -40,7 +40,7 @@ const milestones = [
     title: "Lecturer at Govt. Associate College Dhoke Syedan",
     description:
       "Teaching English language, literature and communication skills with practical classroom methodologies and student-centered learning.",
-    image: "/assets/College.png",
+    image: `${import.meta.env.BASE_URL}assets/College.png`,
     icon: GraduationCap,
   },
 
@@ -50,7 +50,7 @@ const milestones = [
       "Co-Ordinator — Corpus Research Center, Air University Islamabad H11 Campus",
     description:
       "Currently serving as Co-Ordinator, supporting corpus research activities, academic collaboration and research development.",
-    image: "/assets/CRC.jpeg",
+    image: `${import.meta.env.BASE_URL}assets/CRC.jpeg`,
     icon: Trophy,
   },
 
@@ -59,7 +59,7 @@ const milestones = [
     title: "Visiting Teacher — Gomal University",
     description:
       "Delivered undergraduate Functional English courses with focus on communication, writing and interactive learning.",
-    image: "/assets/Gomal.png",
+    image: `${import.meta.env.BASE_URL}assets/Gomal.png`,
     icon: BookOpen,
   },
 
@@ -68,7 +68,7 @@ const milestones = [
     title: "Team Member — Pakistan Association of Phonetics & Phonology",
     description:
       "Active team member and web designer contributing to linguistic, phonetic and academic initiatives.",
-    image: "/assets/PAPPS.png",
+    image: `${import.meta.env.BASE_URL}assets/PAPPS.png`,
     icon: Monitor,
   },
 ];
@@ -264,13 +264,13 @@ const MyAchievements = () => {
 
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
                   {[
-                    "/assets/1.jpeg",
-                    "/assets/2.jpeg",
-                    "/assets/3.jpeg",
-                    "/assets/4.jpeg",
-                    "/assets/Drive.jpeg",
-                    "/assets/Games5.jpeg",
-                    "/assets/Plantation.jpeg",
+                    `${import.meta.env.BASE_URL}assets/1.jpeg`,
+                    `${import.meta.env.BASE_URL}assets/2.jpeg`,
+                    `${import.meta.env.BASE_URL}assets/3.jpeg`,
+                    `${import.meta.env.BASE_URL}assets/4.jpeg`,
+                    `${import.meta.env.BASE_URL}assets/Drive.jpeg`,
+                    `${import.meta.env.BASE_URL}assets/Games5.jpeg`,
+                    `${import.meta.env.BASE_URL}assets/Plantation.jpeg`,
                   ].map((image, index) => (
                     <div
                       key={index}

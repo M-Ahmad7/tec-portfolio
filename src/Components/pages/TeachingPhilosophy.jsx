@@ -91,7 +91,12 @@ const TeachingPhilosophy = () => {
                   </div>
 
                   {/* CENTRAL 3D VISUAL */}
-                  <div className="relative mx-auto flex bg-[url('/assets/Phil.png')] bg-cover h-[340px] w-full max-w-[280px] items-center justify-center overflow-hidden rounded-[2rem] border border-orange-500/20 bg-[radial-gradient(circle_at_50%_15%,rgba(249,115,22,0.08),transparent_35%),linear-gradient(180deg,rgba(255,255,255,0.02),rgba(0,0,0,0.2))] shadow-[0_25px_60px_rgba(0,0,0,0.55)]">
+                  <div
+                    className="relative mx-auto flex h-[340px] w-full max-w-[280px] items-center justify-center overflow-hidden rounded-[2rem] border border-orange-500/20 bg-cover bg-center shadow-[0_25px_60px_rgba(0,0,0,0.55)]"
+                    style={{
+                      backgroundImage: `url(${import.meta.env.BASE_URL}assets/Phil.png)`,
+                    }}
+                  >
                     {/* Floating Shapes */}
                   </div>
 
